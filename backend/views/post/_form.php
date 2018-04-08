@@ -66,7 +66,7 @@ use common\models\Adminuser;
         ->select(['nickname','id'])
         ->indexBy('id')
         ->column(),
-        ['prompt'=>'请选择状态']); 
+        ['prompt'=>'请选择作者']); 
     ?>
 
     <div class="form-group">
